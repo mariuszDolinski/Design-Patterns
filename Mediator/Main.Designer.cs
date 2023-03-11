@@ -35,7 +35,7 @@
             labelName = new Label();
             textBoxFirstName = new TextBox();
             textBoxName = new TextBox();
-            textBox1 = new TextBox();
+            textBoxNR = new TextBox();
             textBoxStreet = new TextBox();
             textBoxCity = new TextBox();
             textBoxPostal = new TextBox();
@@ -114,12 +114,12 @@
             textBoxName.Size = new Size(221, 31);
             textBoxName.TabIndex = 6;
             // 
-            // textBox1
+            // textBoxNR
             // 
-            textBox1.Location = new Point(156, 136);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(221, 31);
-            textBox1.TabIndex = 7;
+            textBoxNR.Location = new Point(156, 136);
+            textBoxNR.Name = "textBoxNR";
+            textBoxNR.Size = new Size(221, 31);
+            textBoxNR.TabIndex = 7;
             // 
             // textBoxStreet
             // 
@@ -178,7 +178,7 @@
             comboBoxCountry.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxCountry.FormattingEnabled = true;
             comboBoxCountry.IntegralHeight = false;
-            comboBoxCountry.Items.AddRange(new object[] { "Polska", "Wielka Brytania", "Niemcy", "Francja", "Włochy", "USA", "Hiszpania", "Portugalia" });
+            comboBoxCountry.Items.AddRange(new object[] { "", "Polska", "Wielka Brytania", "Niemcy", "Francja", "Włochy", "USA", "Hiszpania", "Portugalia" });
             comboBoxCountry.Location = new Point(156, 284);
             comboBoxCountry.Name = "comboBoxCountry";
             comboBoxCountry.Size = new Size(221, 33);
@@ -227,7 +227,7 @@
             Controls.Add(textBoxPostal);
             Controls.Add(textBoxCity);
             Controls.Add(textBoxStreet);
-            Controls.Add(textBox1);
+            Controls.Add(textBoxNR);
             Controls.Add(textBoxName);
             Controls.Add(textBoxFirstName);
             Controls.Add(labelName);
@@ -250,7 +250,7 @@
         private Label labelName;
         private TextBox textBoxFirstName;
         private TextBox textBoxName;
-        private TextBox textBox1;
+        private TextBox textBoxNR;
         private TextBox textBoxStreet;
         private TextBox textBoxCity;
         private TextBox textBoxPostal;

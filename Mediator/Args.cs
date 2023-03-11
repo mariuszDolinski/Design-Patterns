@@ -4,6 +4,6 @@
     {
         RADIO_BUTTON_CHECKED,
         RADIO_BUTTON_UNCHECKED,
-        BUTTON_CLICKED
+        BUTTON_CLEAR_CLICKED
     }
 }

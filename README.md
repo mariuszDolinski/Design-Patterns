@@ -8,4 +8,8 @@ Basic implementation of design patterns (for learning purpose).
     <li>Prototype</li>
     <li>Singleton</li>
     <li>Strategy</li>
+    <li>Observer</li>
+    <li>Mediator</li>
+    <li>Chain of Responsibilty</li>
+    <li>Template Method</li>
 </ol>

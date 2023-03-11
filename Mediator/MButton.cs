@@ -17,7 +17,7 @@ namespace Mediator
 
         private void MyButton_Click(object? sender, EventArgs e)
         {
-            _mediator.Notify(this, Args.BUTTON_CLICKED);
+            _mediator.Notify(this, Args.BUTTON_CLEAR_CLICKED);
         }
     }
 }

@@ -12,13 +12,9 @@
         private void rbutton_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton rb = (RadioButton)sender;
-            if(rb.Checked )
+            if(rb.Checked)
             {
                 _mediator.Notify(this, Args.RADIO_BUTTON_CHECKED);
-            }
-            else
-            {
-                _mediator.Notify(this, Args.RADIO_BUTTON_UNCHECKED);    
             }
         }
     }
