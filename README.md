@@ -12,4 +12,5 @@ Basic implementation of design patterns (for learning purpose).
     <li>Mediator</li>
     <li>Chain of Responsibilty</li>
     <li>Template Method</li>
+    <li>State</li>
 </ol>
